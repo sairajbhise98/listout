@@ -8,7 +8,6 @@ __date__ = "14-11-2021"
 
 from flask import Flask
 from constants.names import FLASK_APP_NAME
-from utils import exec
 
 app = Flask(FLASK_APP_NAME)
 
