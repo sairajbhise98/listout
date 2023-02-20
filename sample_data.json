@@ -1,0 +1,271 @@
+{
+  "sample_contact_group":{
+     "name":"Sample Group"
+  },
+  "sample_group":{
+     "name":"Sample Group",
+     "total_number_of_records":4
+  },
+  "sample_contacts":[
+     {
+        "name":"Jerry (Sample)",
+        "phone":12222222222,
+        "unformatted_phone":2222222222,
+        "email":"tony@stark-industries.com",
+        "in_group":true
+     },
+     {
+        "name":"Peter (Sample)",
+        "phone":13333333333,
+        "unformatted_phone":3333333333,
+        "email":"peter@stark-industries.com",
+        "in_group":true
+     },
+     {
+        "name":"Wanda (Sample)",
+        "phone":14444444444,
+        "unformatted_phone":4444444444,
+        "email":"peter@scarlett-witch.com",
+        "in_group":true
+     },
+     {
+        "name":"Bruce (Sample)",
+        "phone":15555555555,
+        "unformatted_phone":5555555555,
+        "email":"bruce@banner-the-hulk.com",
+        "in_group":true
+     }
+  ],
+  "sample_campaigns":[
+     {
+        "name":"Webinar (Sample)",
+        "status":"draft",
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:18:30",
+        "finished_date":"2022-10-02 08:18:37"
+     },
+     {
+        "name":"Special Offer (Sample)",
+        "status":"draft",
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 06:12:30",
+        "finished_date":"2022-10-02 06:12:40"
+     },
+     {
+        "name":"Happy Birthday (Sample)",
+        "status":"draft",
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 06:12:30",
+        "finished_date":"2022-10-02 06:12:37"
+     }
+  ],
+  "sample_incoming_sms":[
+     {
+        "phone":12222222222,
+        "message":"START",
+        "date":"2022-10-02 05:52:09"
+     },
+     {
+        "phone":12222222222,
+        "message":"Thank you",
+        "date":"2022-10-02 05:56:18"
+     },
+     {
+        "phone":12222222222,
+        "message":"Jerry Green",
+        "date":"2022-10-02 06:05:23"
+     },
+     {
+        "phone":12222222222,
+        "message":"43",
+        "date":"2022-10-02 06:13:28"
+     },
+     {
+        "phone":13333333333,
+        "message":"Hi, I am not sure, may be you will have to guide me here.",
+        "date":"2022-10-02 05:57:23"
+     },
+     {
+        "phone":13333333333,
+        "message":"Today 3 PM works perfectly.",
+        "date":"2022-10-02 06:06:30"
+     },
+     {
+        "phone":13333333333,
+        "message":"Thank you!",
+        "date":"2022-10-02 06:15:30"
+     }
+  ],
+  "sample_outgoing_history":[
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":9000,
+        "message":"You are now subscribed to receive periodic text messages. Reply HELP for help or STOP to cancel. Msg&data rates may apply.",
+        "date":"2022-10-02 05:54:11"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":9000,
+        "message":"Hi could you help us with your full name?",
+        "date":"2022-10-02 05:59:20"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":9000,
+        "message":"Thank you, please help us with your age in numercials. E.g. 32",
+        "date":"2022-10-02 06:10:25"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":9000,
+        "message":"Thank you again! One of our reps will soon be in touch.",
+        "date":"2022-10-02 06:16:32"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":9000,
+        "message":"Hi Peter, I am Steve from DEMO Company. I would love to understand what kind of services you are looking for.",
+        "date":"2022-10-02 05:52:20"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":9000,
+        "message":"Sure! Should we set up a 30 minute call? What time works?",
+        "date":"2022-10-02 06:02:26"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":9000,
+        "message":"Done, I am setting it up for 3:00 to 3:30.",
+        "date":"2022-10-02 06:12:35"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":8300,
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:18:37"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":8300,
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:18:37"
+     },
+     {
+        "phone":14444444444,
+        "formatted_phone":4444444444,
+        "source":8300,
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:18:37"
+     },
+     {
+        "phone":15555555555,
+        "formatted_phone":5555555555,
+        "source":8300,
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:18:37"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":8300,
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 06:12:40"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":8300,
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 06:12:40"
+     },
+     {
+        "phone":14444444444,
+        "formatted_phone":4444444444,
+        "source":8300,
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 06:12:40"
+     },
+     {
+        "phone":15555555555,
+        "formatted_phone":5555555555,
+        "source":8300,
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 06:12:40"
+     },
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "source":8300,
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 06:12:37"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "source":8300,
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 06:12:37"
+     },
+     {
+        "phone":14444444444,
+        "formatted_phone":4444444444,
+        "source":8300,
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 06:12:37"
+     },
+     {
+        "phone":15555555555,
+        "formatted_phone":5555555555,
+        "source":8300,
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 06:12:37"
+     }
+  ],
+  "sample_templates":[
+     {
+        "name":"Happy Birthday",
+        "message":"Hey, We would like to wish you a very HAPPY BIRTHDAY from all of us at SMS-Magic. Reply HAPPY to unlock your special gift from us! ",
+        "date":"2022-10-02 04:15:30"
+     },
+     {
+        "name":"Special Offer",
+        "message":"Hi, on this Thanksgiving, you can make use of our special 12% off on all add-on services. Offer valid for 3 days. Reply with THANKS to avail the offer, now!",
+        "date":"2022-10-02 05:00:00"
+     },
+     {
+        "name":"Webinar",
+        "message":"Hi, We are scheduling a webinar exclusively to address all the questions a first-timer like you may have. Reply with REGISTER to book your spot!",
+        "date":"2022-10-02 08:00:00"
+     }
+  ],
+  "sample_conversation":[
+     {
+        "phone":12222222222,
+        "formatted_phone":2222222222,
+        "incoming":"43",
+        "outgoing":"Thank you again! One of our reps will soon be in touch.",
+        "date":"2022-10-02 05:52:09",
+        "direction":"IN",
+        "name":"Jerry (Sample)"
+     },
+     {
+        "phone":13333333333,
+        "formatted_phone":3333333333,
+        "incoming":"Thank you!",
+        "outgoing":"Done, I am setting it up for 3:00 to 3:30.",
+        "date":"2022-10-02 05:52:20",
+        "direction":"OUT",
+        "name":"Peter (Sample)"
+     }
+  ]
+}
